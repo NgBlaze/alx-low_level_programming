@@ -9,8 +9,8 @@
 
 int main(void)
 {
-        /*Print sre */
-        char str[] = "\"Programming is like building a multilingual puzzle";
+	/*Print sre */
+	char str[] = "\"Programming is like building a multilingual puzzle";
 	/* Print String */
 	puts(str);
 	return (0);
