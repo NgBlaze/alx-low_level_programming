@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * This is a function that
- * prints a line
-*/
+ *  * A function that prints hello world
+ *   */
 
 int main(void)
 {
