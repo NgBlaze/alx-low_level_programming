@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* This is a function that prints a line*/
+/**
+ * This is a function that
+ * prints a line
+*/
 
 int main(void)
 {
