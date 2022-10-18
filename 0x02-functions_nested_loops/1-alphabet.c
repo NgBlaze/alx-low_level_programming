@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "1-alphabet.h" 
+#include "main.h" 
 
 /**
  * print_alphabet - Prints a to z
