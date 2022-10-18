@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include "main.h"
+
 
 /**
- * alphab - Prints a to z
+ * print_alphabet - Prints a to z
  *
  * Description: A function that prints a alphabets
  * Return: Returns 0
  */
 
 
-int alphab(void)
+void print_alphabet(void)
 {
 	int ch;
 
@@ -19,7 +19,6 @@ int alphab(void)
 }
 	putchar('\n');
 
-	return (0);
 
 }
 
@@ -34,7 +33,7 @@ int alphab(void)
 int main(void)
 {
   /* function call */
-	alphab();
+	print_alphabet();
 
 	return (0);
 }
