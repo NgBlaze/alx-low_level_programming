@@ -27,9 +27,8 @@ int putstr(void)
 
 int main(void)
 {
-	int ret;
 	/* function call */
-	ret = putstr();
+	putstr();
 
 	return (0);
 }
