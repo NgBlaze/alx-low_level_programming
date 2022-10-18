@@ -1,0 +1,1 @@
+int putstr(void);
