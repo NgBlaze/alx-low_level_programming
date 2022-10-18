@@ -19,7 +19,7 @@ void print_alphabet(void)
 	_putchar(ch);
 }
 	/* prints new line */
-	putchar('\n');
+	_putchar('\n');
 
 
 }
