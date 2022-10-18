@@ -1,6 +1,6 @@
 #ifndef print_alphabett
 #define print_alphabett
-#include "_putchar.c";
+#include "_putchar.c"
 
 /**
  * print_alphabet - Prints a to z
