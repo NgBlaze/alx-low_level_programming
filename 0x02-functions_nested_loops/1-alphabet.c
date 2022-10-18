@@ -1,17 +1,17 @@
 
 
+#include"main.h"
 
 /**
- * main - Calls the Function
- *
- * Description: A function that prints a string
- * Return: Returns 0
+ * print_alphabet - utilizes on the _putchar function to print
+ *                 the alphabet a - z
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	/* function call */
-	print_alphabet();
+	int ch;
 
-	return (0);
+	for (ch = 'a'; ch <= 'z'; ++ch)
+	_putchar(ch);
+	_putchar('\n');
 }

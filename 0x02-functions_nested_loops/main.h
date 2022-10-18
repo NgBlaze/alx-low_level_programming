@@ -1,27 +1,22 @@
-#ifndef print_alphabett
-#define print_alphabett
-#include "_putchar.c"
-
-/**
- * print_alphabet - Prints a to z
- *
- * Description: A function that prints a alphabets
- * Return: Returns 0
- */
 
 
-void print_alphabet(void)
-{
-	char ch;
+#ifndef MAIN_H
+#define MAIN_H
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-{
-	_putchar(ch);
-}
-	/* prints new line */
-	_putchar('\n');
+#include<stdio.h>
 
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
+void print_times_table(int n);
 
-}
-
-#endif
+#endif /* MAIN_H */
